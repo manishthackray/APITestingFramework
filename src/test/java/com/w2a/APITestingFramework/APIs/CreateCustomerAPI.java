@@ -12,6 +12,7 @@ public class CreateCustomerAPI extends BaseTest {
 
 	public static Response sendPostRequestToCreateCustomerAPIWithValidAuthKey(Hashtable<String,String> data) {
 		
+		//sample comment
 		Response response = 
 				given()
 				.auth()
