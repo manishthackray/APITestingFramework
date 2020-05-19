@@ -25,7 +25,7 @@ public class CreateCustomerTest extends BaseTest{
 
 	}
 	
-	@Test(dataProviderClass = DataUtil.class, dataProvider = "data")
+/*	@Test(dataProviderClass = DataUtil.class, dataProvider = "data")
 	public void validateCreateCustomerAPIWithInValidSecretKey(Hashtable<String,String> data) {
 
 		Response response = CreateCustomerAPI.sendPostRequestToCreateCustomerAPIWithInValidAuthKey(data);		
@@ -36,5 +36,5 @@ public class CreateCustomerTest extends BaseTest{
 		
 		Assert.assertEquals(response.statusCode(), 200);
 	}
-
+*/
 }
