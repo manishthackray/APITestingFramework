@@ -12,6 +12,7 @@ public class DeleteCustomerAPI extends BaseTest {
 
 	public static Response sendDeleteRequestToDeleteCustomerAPIWithValidID(Hashtable<String,String> data) {
 		
+		//Inside DeleteCustomer API
 		Response response = 
 				given()
 				.auth()
