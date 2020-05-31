@@ -1,10 +1,10 @@
-package com.w2a.APITestingFramework.testcases;
+package com.w2a.APITestingFramework.testcases.stripe;
 
 import org.testng.annotations.Test;
 import java.util.Hashtable;
 import org.testng.Assert;
 
-import com.w2a.APITestingFramework.APIs.CreateCustomerAPI;
+import com.w2a.APITestingFramework.APIs.stripe.CreateCustomerAPI;
 import com.w2a.APITestingFramework.listeners.ExtentListeners;
 import com.w2a.APITestingFramework.setUp.BaseTest;
 import com.w2a.APITestingFramework.utilities.DataUtil;

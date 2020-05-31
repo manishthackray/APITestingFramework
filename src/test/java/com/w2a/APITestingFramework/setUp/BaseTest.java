@@ -35,7 +35,7 @@ public class BaseTest {
 		}
 		
 		RestAssured.baseURI=config.getProperty("baseURI");
-		RestAssured.basePath=config.getProperty("basePath");
+		//RestAssured.basePath=config.getProperty("basePath");
 	}
 	
 	@AfterSuite

@@ -7,17 +7,16 @@
        </listener>
    </listeners>
     
-  <test name="Create Order Test">
+  <test name="Create Customer API Test">
     <classes>
-      <class name="com.w2a.APITestingFramework.testcases.paypal.CreateOrderTest"/>
+      <class name="com.w2a.APITestingFramework.testcases.CreateCustomerTest"/>
     </classes>
     </test> <!-- Test -->
- 
-   <test name="Get Order Test">
+    
+  <test name="Delete Customer API Test">
     <classes>
-      <class name="com.w2a.APITestingFramework.testcases.paypal.GetOrderTest"/>
+      <class name="com.w2a.APITestingFramework.testcases.DeleteCustomerTest"/>
     </classes>
-    </test> <!-- Test -->
- 
- 
+  </test> <!-- Test -->
+  
 </suite> <!-- Suite -->

@@ -1,4 +1,4 @@
-package com.w2a.APITestingFramework.testcases;
+package com.w2a.APITestingFramework.testcases.stripe;
 
 import org.testng.annotations.Test;
 
@@ -11,8 +11,8 @@ import org.json.JSONObject;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
-import com.w2a.APITestingFramework.APIs.CreateCustomerAPI;
-import com.w2a.APITestingFramework.APIs.DeleteCustomerAPI;
+import com.w2a.APITestingFramework.APIs.stripe.CreateCustomerAPI;
+import com.w2a.APITestingFramework.APIs.stripe.DeleteCustomerAPI;
 import com.w2a.APITestingFramework.listeners.ExtentListeners;
 import com.w2a.APITestingFramework.setUp.BaseTest;
 import com.w2a.APITestingFramework.utilities.DataUtil;
